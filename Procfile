@@ -1,0 +1,1 @@
+web: gunicorn blind.wsgi --log-file -
