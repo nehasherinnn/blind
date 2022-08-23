@@ -6,3 +6,5 @@ def cart (request):
     return render(request,"customer/cart.html")
 def item (request):
     return render(request,"customer/items.html")
+def home(request):
+    return render(request,"customer/home.html")
